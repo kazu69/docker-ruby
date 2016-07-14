@@ -13,7 +13,11 @@ RUN apk add --update \
     libffi-dev \
     mariadb-dev \
     mysql-client \
-    libffi-dev \
+    build-base \
+    libxml2-dev \
+    zlib-dev \
+    libgcrypt-dev \
+    libxslt-dev \
     qt-dev && \
     rm -rf /var/cache/apk/*
 
