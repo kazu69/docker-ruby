@@ -15,7 +15,7 @@ $ docker pull kazu69/ruby:VERSION
 Also possible to use or from github to get
 
 ```sh
-$ git clone https://github.com/kazu69/docker-riby.git
+$ git clone https://github.com/kazu69/docker-ruby.git
 $ cd docker-ruby
 $ docker build -t kazu69/docker-ruby .
 ```
