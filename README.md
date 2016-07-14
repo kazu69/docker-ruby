@@ -1,6 +1,8 @@
 Ruby Docker container
 ====================
 
+[![Build Status](https://travis-ci.org/kazu69/docker-ruby.svg?branch=2.3)](https://travis-ci.org/kazu69/docker-ruby)
+
 > In this Dockerfile by using the rbenv you have installed the ruby
 
 Installation
