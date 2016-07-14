@@ -13,7 +13,8 @@ RUN apk add --update \
     libffi-dev \
     mariadb-dev \
     mysql-client \
-    libffi-dev && \
+    libffi-dev \
+    qt-dev && \
     rm -rf /var/cache/apk/*
 
 RUN git clone git://github.com/sstephenson/rbenv.git ${RBENV_ROOT} && \
