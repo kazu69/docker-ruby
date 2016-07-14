@@ -2,7 +2,6 @@ Ruby Docker container
 ====================
 
 > In this Dockerfile by using the rbenv you have installed the ruby
-> Also installed phantomjs for E2E test
 
 Installation
 -----
