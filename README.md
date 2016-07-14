@@ -2,7 +2,6 @@ Ruby Docker container
 ====================
 
 > In this Dockerfile by using the rbenv you have installed the ruby
-> Also installed phantomjs for E2E test
 
 Installation
 -----
@@ -10,7 +9,7 @@ Installation
 The easiest way to do this is to get from Docker registry
 
 ```sh
-$ docker pull kazu69/ruby:VERSION
+$ docker pull kazu69/ruby:2.3
 ```
 
 Also possible to use or from github to get
