@@ -26,7 +26,8 @@ RUN apt-get -y install curl \
                         libfreetype6 \
                         libfreetype6-dev \
                         libfontconfig1 \
-                        libfontconfig1-dev
+                        libfontconfig1-dev \
+                        libmysqlclient-dev
 
 RUN git clone git://github.com/sstephenson/rbenv.git ${RBENV_ROOT} && \
     git clone https://github.com/sstephenson/ruby-build.git ${RBENV_ROOT}/plugins/ruby-build && \
